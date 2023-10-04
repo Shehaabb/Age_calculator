@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+    <title>Document</title>
+    <link rel='stylesheet' href='./style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Glory:wght@100;400&family=Poppins:ital,wght@0,900;1,200;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputs">
+            <div class="input">
+                <h2 id="day-label">Day</h2>
+                <input type="number" class="input" id="day" placeholder="DD" min="1" max="31">
+                <p id="valid-day"> </p>
+            </div>
+            <div class="input">
+                <h2 id="month-label">Month</h2>
+                <input type="number" class="input" id="month" placeholder="MM">
+                <p id="valid-month"></p>
+            </div>
+            <div class="input">
+                <h2 id="year-label">Year</h2>
+                <input type="number" class="input" id="year" placeholder="YYYY">
+                <p id="valid-year"></p>
+            </div>
+        </div>
+        <hr>
+        <img src="./icon-arrow.png" onclick="Submit()">
+        <div class="result">
+            <div class="section">
+                <h1 class="space" id="years">- -</h1>
+                <h1>years</h1>
+            </div>
+            <div class="section">
+                <h1 class="space" id="months">- -</h1>
+                <h1>months</h1>
+            </div>
+            <div class="section">
+                <h1 class="space" id="days">- -</h1>
+                <h1>days</h1>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+<script src='./script.js'></script>
+
+</html>

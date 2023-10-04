@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Glory', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F0F0F0;
+
+}
+
+.container {
+    height: 550px;
+    width: 700px;
+    margin: 0 auto;
+    top: 100px;
+    border-radius: 10px 10px 200px 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+
+.inputs {
+    display: flex;
+    left: 50px;
+    gap: 50px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs p {
+
+    top: 80px;
+    color: red;
+    font-family: sans-serif;
+    font-size: 9px;
+    width: max-content;
+
+}
+
+hr {
+    border: solid 1px rgb(236, 235, 235);
+    top: 120px;
+    width: 600px;
+    left: 25px;
+}
+
+.inputs h2 {
+    top: 60px;
+    left: 0px;
+    font-size: large;
+    font-weight: lighter;
+    color: gray;
+}
+
+
+
+
+.inputs input {
+    height: 50px;
+    width: 100px;
+    border: solid 1px rgb(225, 224, 224);
+    top: 70px;
+    right: 10px;
+    background-color: transparent;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 5px;
+}
+
+img {
+    background-color: #834DFB;
+    border-radius: 50%;
+    top: 90px;
+    left: 600px;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 40px;
+    top: 60px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 32px;
+}
+
+.space {
+    color: #834DFB;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 426px) {
+    img {
+        left: 170px;
+        top: 120px;
+    }
+
+
+
+    .container {
+        height: 600px;
+        width: 470px;
+        left: 0px;
+        top: 40px;
+
+    }
+
+    .result {
+        top: 150px;
+    }
+
+    .inputs {
+        top: 0;
+        gap: 15px;
+    }
+
+    .inputs p {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline;
+        color: red;
+        font-family: sans-serif;
+        right: 10px;
+        font-size: 12px;
+    }
+
+    .inputs h2 {
+        top: 60px;
+        font-size: small;
+        font-weight: lighter;
+        color: gray;
+    }
+
+    hr {
+        border: solid 1px rgb(236, 235, 235);
+        top: 150px;
+        width: 470px;
+        left: 0px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
